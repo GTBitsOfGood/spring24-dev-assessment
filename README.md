@@ -11,37 +11,67 @@ Once again, we would like to emphasize this take home assessment is designed to 
 
 # Story
 _HaHa Heroes_, a local non-profit in the greater Atlanta area (note: this is a fictional non-profit), has volunteers assigned to different sub-projects they manage. These projects
-are called _Hero Projects_. The non-profit has recently seen an uptick in the number of volunteers they manage and would like to a volunteer management system (VMS) to keep track of what projects volunteers are working on. _HaHa Heroes_ needs your help to build this system.
+are called _Hero Projects_. The non-profit has recently seen an uptick in the number of volunteers they manage and would like to a volunteer management system (VMS) to keep track of what projects volunteers are working on. _HaHa Heroes_ needs your help to build this system!
 
 Specifically, they would like a page where they could see a table of volunteers where each row of the table contains the following information:
 
 1. `Name`: _the name of the volunteer_
-2. `Phone`: _the phone number of the volunteer_
-3. `Email`: _the email address of the volunteer_
-4. 
+2. `Profile Picture`: _an image of the volunteer_
+3. `Phone`: _the phone number of the volunteer_
+4. `Email`: _the email address of the volunteer_
+5. `Rating`: _the rating of the volunteer_ (from 1 - 9)
+6. `Status`: _whether the volunteer is active or not_
+7. `Hero Project`: _the name of the project the volunteer is assigned to_
 
+Below, we have provided various levels where you will add functionality progressively to make this VMS. Additionally, we have provided a backend API below to get the data
+needed to populate your VMS frontend.
 
-has requested employee management system to keep track of what employees they 
-
+Good luck hacking!
 
 # API
-We have provided an API to allow you to 
+We have provided an API to allow you to retrive data from the VMS backend. 
+
+To retrive data about the list of volunteers you will need to populate your FE with, you can call
+```
+GET https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users
+```
+This endpoint will return a list of volunteers along with relevant information associated with each of them.
+
+_Note:_ Technically, there are other operations this API allows, but we request you **DON'T** call these endpoints for now.
 
 # Level 0: Setup
-* Make a basic component for table
+1. Setup the repo with any necessary dependencies needed (recall no more than one component library and it must be TypeScript/React/Next)
 
 # Level 1: Easy
-* Add styling to the table, make it responsive, and maintain frontend state
+2. Render a basic component for the table on `localhost:3000` using the API provided to display all the information for each volunteer. The table
+   should contain enough columns to fulfill the non-profit's request for information displayed.
+3. Ensure the table is styled appropriately and has _responsive_ (i.e. mobile-friendly) design using whatever styling primitives your prefer.
 
 # Level 2: Medium
+For the purposes of this exercise, our API will not support `POST`, `PUT`, or `DELETE` operations. We would still like to emulate the ability to support these types of
+functionality on the frontend of the VMS. Note, this will mean that your FE shouldn't persist changes in the API only in the FE state.
+
+4. Add the ability to add new volunteers to the table on the frontend.
+5. Add the ability to update volunteer information on the frontend.
+6. Add the ability to delete volunteer information on the frontend.
+
+
+
+ We would still like you to emulate the ability to add CRUD (create, 
+read, update, delete) functionality for the your application as if the API supported (i.e. your updates on the FE won't persist)
+  a. Add the ability to add new volunteers to the table on the FE state.
+  b.
+6. Add a page for each volunteer so when you click on it
+7. Optimize the application
 https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users
-# API to get data : https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users (please do not post POST/DELETE to this endpoint)
-* Hook it up to a backend so that we can populate the table from the API, Crud functionality, Add COntext, MEmoization
+* CRUD Functionality, Add COntext, MEmoization
 React ROuter Add Context
 
 # Level 3: Hard
+
+
 * FE Pagination, unit testing, internationalization, react-router, websocket and webworkers, CRUD 
 * React-Router, using webworksers to collect statistics, add statistics page
 
 # Level 4: Expert (Optional)
-* Add authentication, etc. 
+* Add authentication, paginate the application
