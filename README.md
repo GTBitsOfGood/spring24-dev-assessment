@@ -45,26 +45,26 @@ GET https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users/:id
 _Note:_ Technically, there are other operations this API allows, but we request you **DON'T** call these endpoints for now.
 
 # Level 0: Setup
-1. Setup the repo with any necessary dependencies needed (recall no more than one component library and it must be TypeScript/React/Next).
+* Setup the repo with any necessary dependencies needed (recall no more than one component library and it must be TypeScript/React/Next).
 
 # Level 1: Easy
-2. Render a basic component for the table on `localhost:3000` using the API provided to display all the information for each volunteer. The table
+* Render a basic component for the table on `localhost:3000` using the API provided to display all the information for each volunteer. The table
    should contain enough columns to fulfill the non-profit's request for information displayed.
-3. Ensure the table is styled appropriately and has _responsive_ (i.e. mobile-friendly) design using whatever styling primitives your prefer.
+* Ensure the table is styled appropriately and has _responsive_ (i.e. mobile-friendly) design using whatever styling primitives your prefer.
 
 # Level 2: Medium
 For the purposes of this exercise, our API will not support `POST`, `PUT`, or `DELETE` operations. We would still like to emulate the ability to support these types of
 functionality on the frontend of the VMS. Note, this will mean that your FE shouldn't persist changes in the API only in the FE state.
 
-4. Add the ability to add new volunteers to the table on the frontend.
-5. Add the ability to update volunteer information on the frontend.
-6. Add the ability to delete volunteer information on the frontend.
+* Add the ability to add new volunteers to the table on the frontend.
+*  Add the ability to update volunteer information on the frontend.
+* Add the ability to delete volunteer information on the frontend.
 
 # Level 3: Hard
-7. The non-profit would only like to see at most 10 volunteers at a time on the FE table. Add pagination to the table to support this request.
-8. The non-profit has multiple people that will interact with the application and would like to add internationalization to the application to make it user-friendly to people who speak different languages. Add internationalization to this frontend.
-9. The non-profit would like to click on a user to retrieve information about notes they have on this volunteer in a separate page. Please add this functionality for them.
-10. We would also like to retrive statistics on how often each volunteer's row is clicked and displayed on this page (this does not have to be persisted anywhere). 
+* The non-profit would only like to see at most 10 volunteers at a time on the FE table. Add pagination to the table to support this request.
+*  The non-profit has multiple people that will interact with the application and would like to add internationalization to the application to make it user-friendly to people who speak different languages. Add internationalization to this frontend.
+* The non-profit would like to click on a user to retrieve information about notes they have on this volunteer in a separate page. Please add this functionality for them.
+* We would also like to retrive statistics on how often each volunteer's row is clicked and displayed on this page (this does not have to be persisted anywhere). 
 
 # Level 4: Expert 
 For the final part of this VMS, we would like to introduce some form of authentication and authorization to the application.
