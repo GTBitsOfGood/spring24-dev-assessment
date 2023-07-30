@@ -61,12 +61,14 @@ functionality on the frontend of the VMS. Note, this will mean that your FE shou
 6. Add the ability to delete volunteer information on the frontend.
 
 # Level 3: Hard
-7. The non-profit would only like to see at most 10 volunteers at a time on the FE table. We would like you to introduce pagination on the FE for the table.
-8. The non-profit has multiple people that will interact with the application and would like to add internationalization to the application to make it user-friendly to people who speak different languages.
-9. The non-profit
-* Add a page to get specific user information (react-router or next)
+7. The non-profit would only like to see at most 10 volunteers at a time on the FE table. Add pagination to the table to support this request.
+8. The non-profit has multiple people that will interact with the application and would like to add internationalization to the application to make it user-friendly to people who speak different languages. Add internationalization to this frontend.
+9. The non-profit would like to click on a user to retrieve information about notes they have on this volunteer in a separate page. Please add this functionality for them.
+10. We would also like to retrive statistics on how often each volunteer's row is clicked and displayed on this page (this does not have to be persisted anywhere). 
 
-
-# Level 4: Expert (Optional)
-* Add authentication, unit testing
-* Webworkers to collect statistis
+# Level 4: Expert 
+For the final part of this VMS, we would like to introduce some form of authentication and authorization to the application.
+11. Add functionality to ensure only certain clients can log in to the application. We would like you to add OAuth2 support with google emails to the application.
+12. Ensure that updating the table can only be done by people who are authorized to do so. For now, we would like this to be a toggle on the table somewhere.
+13. Use Webworkers to collect statistics about user interaction with the VMS and display them somewhere.
+14. Unit-test and document your application!!!
