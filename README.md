@@ -10,9 +10,12 @@ To submit your project, please commit your code to Github (preferred) or another
 Once again, we would like to emphasize this take home assessment is designed to be challenging and we do not expect you to be able to do the entire thing (but of course, try your best to complete as much as possible!)
 
 # Story
-_HaHa Heroes_, a local non-profit in the greater Atlanta area, has requested for an employee management system to understand. 
+_HaHa Heroes_, a local non-profit in the greater Atlanta area (note: this is a fictional non-profit), has volunteers assigned to different sub-projects they manage. These projects
+are called _Hero Projects_. The non-profit has recently seen an uptick in the number of volunteers they manage and would like to 
 
-_Note:_ This story is entirely fictional.
+
+has requested employee management system to keep track of what employees they a
+
 
 # Getting Started
 
@@ -23,9 +26,12 @@ _Note:_ This story is entirely fictional.
 * Add styling to the table, make it responsive, and maintain frontend state
 
 # Level 2: Medium
-* Hook it up to a backend so that we can populate the table from the API
+* Hook it up to a backend so that we can populate the table from the API, Crud functionality, Add COntext, MEmoization
 React ROuter Add Context
 
 # Level 3: Hard
-* Pagination, unit testing, internationalization, react-router, websocket and webworkers
-* React-Router, using websocket webworksers
+* Pagination, unit testing, internationalization, react-router, websocket and webworkers, CRUD 
+* React-Router, using webworksers to collect statistics, add statistics page
+
+# Level 4: Expert (Optional)
+* Add authentication, etc. 
