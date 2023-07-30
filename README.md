@@ -68,7 +68,7 @@ functionality on the frontend of the VMS. Note, this will mean that your FE shou
 
 # Level 4: Expert 
 For the final part of this VMS, we would like to introduce some form of authentication and authorization to the application.
-* Add functionality to ensure only certain clients can log in to the application. We would like you to add OAuth2 support with google emails to the application.
-* Ensure that updating the table can only be done by people who are authorized to do so. For now, we would like this to be a toggle on the table somewhere.
-* Use Webworkers to collect statistics about user interaction with the VMS and display them somewhere.
-* Unit-test and document your application!!!
+* Implement OAuth2 support with Google emails for selective client access. 
+* Authorize specific personnel to update (add, delete, update) the table with a user-friendly toggle.
+* Use Webworkers to gather user interaction statistics and display them. Hint: Think about which statistics would require Webworkers and which wouldn't.
+* Thoroughly unit-test and document the application for reliability and ease of use.
