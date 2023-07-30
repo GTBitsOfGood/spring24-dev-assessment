@@ -11,9 +11,14 @@ Once again, we would like to emphasize this take home assessment is designed to 
 
 # Story
 _HaHa Heroes_, a local non-profit in the greater Atlanta area (note: this is a fictional non-profit), has volunteers assigned to different sub-projects they manage. These projects
-are called _Hero Projects_. The non-profit has recently seen an uptick in the number of volunteers they manage and would like to a volunteer management system (VMS) to keep track of what projects volunteers are working on.
+are called _Hero Projects_. The non-profit has recently seen an uptick in the number of volunteers they manage and would like to a volunteer management system (VMS) to keep track of what projects volunteers are working on. _HaHa Heroes_ needs your help to build this system.
 
-They have specifically requested the following 
+Specifically, they would like a page where they could see a table of volunteers where each row of the table contains the following information:
+
+1. `Name`: _the name of the volunteer_
+2. `Phone`: _the phone number of the volunteer_
+3. `Email`: _the email address of the volunteer_
+4. 
 
 
 has requested employee management system to keep track of what employees they 
