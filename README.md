@@ -11,13 +11,16 @@ Once again, we would like to emphasize this take home assessment is designed to 
 
 # Story
 _HaHa Heroes_, a local non-profit in the greater Atlanta area (note: this is a fictional non-profit), has volunteers assigned to different sub-projects they manage. These projects
-are called _Hero Projects_. The non-profit has recently seen an uptick in the number of volunteers they manage and would like to 
+are called _Hero Projects_. The non-profit has recently seen an uptick in the number of volunteers they manage and would like to a volunteer management system (VMS) to keep track of what projects volunteers are working on.
+
+They have specifically requested the following 
 
 
-has requested employee management system to keep track of what employees they a
+has requested employee management system to keep track of what employees they 
 
 
-# Getting Started
+# API
+We have provided an API to allow you to 
 
 # Level 0: Setup
 * Make a basic component for table
@@ -26,11 +29,12 @@ has requested employee management system to keep track of what employees they a
 * Add styling to the table, make it responsive, and maintain frontend state
 
 # Level 2: Medium
+# API to get data : https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users (please do not post POST/DELETE to this endpoint)
 * Hook it up to a backend so that we can populate the table from the API, Crud functionality, Add COntext, MEmoization
 React ROuter Add Context
 
 # Level 3: Hard
-* Pagination, unit testing, internationalization, react-router, websocket and webworkers, CRUD 
+* FE Pagination, unit testing, internationalization, react-router, websocket and webworkers, CRUD 
 * React-Router, using webworksers to collect statistics, add statistics page
 
 # Level 4: Expert (Optional)
