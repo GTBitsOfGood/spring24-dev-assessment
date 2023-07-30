@@ -37,10 +37,15 @@ GET https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users
 ```
 This endpoint will return a list of volunteers along with relevant information associated with each of them.
 
+To get the information for a specific volunteer, you can call 
+```
+GET https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users/:id
+```
+
 _Note:_ Technically, there are other operations this API allows, but we request you **DON'T** call these endpoints for now.
 
 # Level 0: Setup
-1. Setup the repo with any necessary dependencies needed (recall no more than one component library and it must be TypeScript/React/Next)
+1. Setup the repo with any necessary dependencies needed (recall no more than one component library and it must be TypeScript/React/Next).
 
 # Level 1: Easy
 2. Render a basic component for the table on `localhost:3000` using the API provided to display all the information for each volunteer. The table
@@ -55,23 +60,13 @@ functionality on the frontend of the VMS. Note, this will mean that your FE shou
 5. Add the ability to update volunteer information on the frontend.
 6. Add the ability to delete volunteer information on the frontend.
 
-
-
- We would still like you to emulate the ability to add CRUD (create, 
-read, update, delete) functionality for the your application as if the API supported (i.e. your updates on the FE won't persist)
-  a. Add the ability to add new volunteers to the table on the FE state.
-  b.
-6. Add a page for each volunteer so when you click on it
-7. Optimize the application
-https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users
-* CRUD Functionality, Add COntext, MEmoization
-React ROuter Add Context
-
 # Level 3: Hard
+7. The non-profit would only like to see at most 10 volunteers at a time on the FE table. We would like you to introduce pagination on the FE for the table.
+8. The non-profit has multiple people that will interact with the application and would like to add internationalization to the application to make it user-friendly to people who speak different languages.
+9. The non-profit
+* Add a page to get specific user information (react-router or next)
 
-
-* FE Pagination, unit testing, internationalization, react-router, websocket and webworkers, CRUD 
-* React-Router, using webworksers to collect statistics, add statistics page
 
 # Level 4: Expert (Optional)
-* Add authentication, paginate the application
+* Add authentication, unit testing
+* Webworkers to collect statistis
