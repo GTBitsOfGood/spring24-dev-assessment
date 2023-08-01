@@ -31,7 +31,7 @@ Good luck hacking!
 # API
 We have provided an API to allow you to retrive data from the VMS backend. 
 
-To retrive data about the list of volunteers you will need to populate your FE with, you can call
+To retrive data about the list of volunteers you will need to populate your frontend with, you can call
 ```
 GET https://64c5c168c853c26efadaed97.mockapi.io/api/bog/Users
 ```
@@ -54,14 +54,16 @@ _Note:_ Technically, there are other operations this API allows, but we request 
 
 # Level 2: Medium
 For the purposes of this exercise, our API will not support `POST`, `PUT`, or `DELETE` operations. We would still like to emulate the ability to support these types of
-functionality on the frontend of the VMS. Note, this will mean that your FE shouldn't persist changes in the API only in the FE state.
+functionality on the frontend of the VMS. Note, this will mean that your frontend is not required to persist changes in the API only in the frontend state.
 
-* Add the ability to add new volunteers to the table on the frontend.
-*  Add the ability to update volunteer information on the frontend.
-* Add the ability to delete volunteer information on the frontend.
+* Add the ability to add new volunteers to the table on the frontend (add users only client-side).
+*  Add the ability to update volunteer information on the frontend (update a user only client-side).
+* Add the ability to delete volunteer information on the frontend (delete a user only client-side).
+* Bonus: Modify the API to support POST, PUT, and/or DELETE operations
+* Bonus: Modify your frontend application to integrate these additional endpoints (convert all the client-side operations to occur server-side)
 
 # Level 3: Hard
-* The non-profit would only like to see at most 10 volunteers at a time on the FE table. Add pagination to the table to support this request.
+* The non-profit would only like to see at most 10 volunteers at a time on the frontend table. Add pagination to the table to support this request (client-side pagination).
 *  The non-profit has multiple people that will interact with the application and would like to add internationalization to the application to make it user-friendly to people who speak different languages. Add internationalization to this frontend.
 * The non-profit would like to click on a user to retrieve information about notes they have on this volunteer in a separate page. Please add this functionality for them.
 * We would also like to retrive statistics on how often each volunteer's row is clicked and displayed on this page (this does not have to be persisted anywhere). 
