@@ -1,7 +1,7 @@
 # Introduction 
 Hello, thank you for showing your interest in Bits of Good! This semester, we are focusing our recruitment on the practical skills of developers through this assessment! We hope you enjoy the task and if you have any questions or if any part is ambiguous, please send us an email at gt.engineering@hack4impact.org or file an issue on GitHub.
 
-While this assessment comes in various levels (Setup --> Expert), we do not expect you to be able to complete all of the levels; we just want to see your thought process and how you write and organize code. Additionally, we have provided a sample `create-react-app` boilerplate along with an express server but feel free to use a different framework or customize this repository to your needs (i.e. install any extra libraries, etc. you need). Our only requirement is that you use React, Typescript, and at most one component library (if you choose to use one).
+While this assessment comes in various levels (Setup --> Expert), we do not expect you to be able to complete all of the levels; we just want to see your thought process and how you write and organize code. Additionally, we have provided a sample `create-react-app` boilerplate along with an express server but feel free to use a different framework or customize this repository to your needs (i.e. install any extra libraries, etc. you need). Our only requirement is that you use React or Next, and at most one component library (if you choose to use one).
 
 Because this assessment is very open ended, there are many ways to do the tasks so for most of the tasks, there is no right or wrong way to do things.
 
@@ -45,7 +45,7 @@ GET http://localhost:5000/api/bog/Users/:id
 _Note:_ Technically, there are other operations this API allows, but we request you **DON'T** call these endpoints for now.
 
 # Level 0: Setup
-* Setup the repo with any necessary dependencies needed (recall no more than one component library and it must be TypeScript/React/Next).
+* Setup the repo with any necessary dependencies needed (recall no more than one component library, and you must use React or Next).
 
 # Level 1: Easy
 * Render a basic component for the table on `localhost:3000` using the API provided to display all the information for each volunteer. The table
