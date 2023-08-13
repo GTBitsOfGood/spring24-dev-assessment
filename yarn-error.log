@@ -1,0 +1,31 @@
+Arguments: 
+  /home/samrat/.nvm/versions/node/v16.17.1/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarn.js add concurrently
+
+PATH: 
+  /home/samrat/gems/bin:/home/samrat/.gvm/pkgsets/go1.19.3/global/bin:/home/samrat/.gvm/gos/go1.19.3/bin:/home/samrat/.gvm/pkgsets/go1.19.3/global/overlay/bin:/home/samrat/.gvm/bin:/home/samrat/.gvm/bin:/home/samrat/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/samrat/.local/bin:/home/samrat/gems/bin:/home/samrat/.gvm/pkgsets/go1.19.3/global/bin:/home/samrat/.gvm/gos/go1.19.3/bin:/home/samrat/.gvm/pkgsets/go1.19.3/global/overlay/bin:/home/samrat/.gvm/bin:/home/samrat/.gvm/bin:/home/samrat/.nvm/versions/node/v16.17.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/IncrediBuild:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.31.31103/bin/HostX86/x64/cl.exe:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/Program Files/7-Zip/7z.exe:/mnt/c/Program Files/Go/bin:/mnt/c/Ruby31-x64/bin:/mnt/c/Users/samra/scoop/shims:/mnt/c/Users/samra/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2021.2.3/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.2.3/bin:/mnt/c/Users/samra/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/samra/AppData/Local/GitHubDesktop/bin:/mnt/c/users/samra/appdata/local/packages/pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0/localcache/local-packages/python39/scripts:/mnt/c/users/samra/.local/bin:/mnt/c/Users/samra/AppData/Local/Yarn/bin:/mnt/c/Users/samra/AppData/Roaming/npm:/mnt/c/Users/samra/go/bin:/mnt/c/Users/samra/AppData/Local/Microsoft/WindowsApps:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/samrat/Documents/fall23-dev-assessment/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /mnt/c/Program Files (x86)/Yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:310:30)
+      at /mnt/c/Program Files (x86)/Yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
