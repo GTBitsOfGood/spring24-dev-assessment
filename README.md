@@ -90,7 +90,8 @@ functionality on the frontend of the volunteer management system. Note, this wil
 * We would also like to retrive statistics on how often each volunteer's row is clicked and displayed on this page (this does not have to be persisted anywhere). 
 
 # Level 4: Expert 
-For the final part of this volunteer management system, we would like to introduce some form of authentication and authorization to the application.
+For the final part of this volunteer management system, we would like to introduce greater control over the table and some form of authentication and authorization to the application.
+* Add sorting (alphabetical) and filtering on the `hero_project` column of the table 
 * Authorize specific personnel to update (add, delete, update) the table via different page routes
   * For example: a page under `/admin/` should allow all operations (i.e. add, delete, update to the table) whereas the same page under `/viewer/` should allow no operations beyond viewing
 * Use Webworkers to gather user interaction statistics and display them. Hint: Think about which statistics would require Webworkers and which wouldn't.
